@@ -25,6 +25,9 @@ Route::get('/detail/notice/{id}','IndexController@showNoticeDetails');
 Route::get('/check/email','IndexController@checkEmail');
 Route::get('/activate/{id}','IndexController@activateUser');
 Route::get('/committee/{name}','IndexController@showCommittee');
+Route::get('/history','IndexController@showHistory')->name('user.history');
+Route::get('/why-us','IndexController@showWhyus')->name('user.why.us');
+Route::post('/submit/message','IndexController@storeMessage')->name('user.submit.message');
 
 Route::group(['middleware' => 'auth'], function (){
 });

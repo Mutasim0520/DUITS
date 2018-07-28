@@ -78,3 +78,14 @@
         </div>
     </div>
 @endif
+@if(Session::has('success_msg_send'))
+    <div class="modal fade success-popup" id="success_msg_send" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="lead">{{Session::get('success_msg_send')}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+@endif

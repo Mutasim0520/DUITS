@@ -82,7 +82,7 @@ DUITS
             <div class="row">
                 <div class="col-sm-6 inner-right-xs text-right">
                     <figure>
-                        <img src="assets/images/why.jpg" alt="">
+                        <img src="/images/why.jpg" alt="">
                     </figure>
                 </div>
                 <div class="col-sm-6 inner-top-xs inner-left-xs">
@@ -94,13 +94,13 @@ DUITS
                         social activities. The organizations or associations give us opportunity to do
                         social work and by such activities our hearts fill with patriotism and love for
                         the nation.</p>
-                    <a href="why.html" class="txt-btn">Learn More</a>
+                    <a href="{{Route('user.why.us')}}" class="txt-btn">Learn More</a>
                 </div>
             </div>
             <div class="row inner-top-md">
                 <div class="col-sm-6 col-sm-push-6 inner-left-xs">
                     <figure>
-                        <img src="assets/images/history.jpg" alt="">
+                        <img src="/images/history.jpg" alt="">
                     </figure>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
@@ -111,7 +111,7 @@ DUITS
                         Arif Dewan, General Secretary. The Vice-Chancellor of Dhaka University is the chief
                         patron and Dr. AJM Shafiul Alam Bhuiyan, Professor, ...........................
                     </p>
-                    <a href="History.html" class="txt-btn">Visit to Learn More</a>
+                    <a href="{{Route('user.history')}}" class="txt-btn">Visit to Learn More</a>
                 </div>
             </div>
 

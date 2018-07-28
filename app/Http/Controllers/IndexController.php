@@ -2,11 +2,8 @@
 
 namespace App\Http\Controllers;
 use App\Committee as Committee;
-use App\Honor as Honor;
 use App\Broadcast as News;
-use App\Broadcasts_image as News_image;
 use App\Event as Events;
-use App\Events_image as Events_image;
 
 use Illuminate\Http\Request;
 use App\Student as Student_form;
@@ -15,6 +12,8 @@ use App\Notice as Notice;
 use Session;
 use App\User as User;
 use App\Committee_type as Committee_type;
+use App\Meaasge as Message;
+
 
 class IndexController extends Controller
 {
@@ -87,7 +86,26 @@ class IndexController extends Controller
         return view('user.notice',['notice' => $notice]);
     }
 
-    public function showContact(Request $request){
+    public function showContact(){
         return view('user.contact');
+    }
+
+    public function showWhyus(){
+        return view('user.whyUs');
+    }
+
+    public function showHistory(){
+        return view('user.history');
+    }
+
+    public function storeMessage(Request $request){
+        $message = new Message();
+        $message->name = htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->name)));
+        $message->email = htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->email)));
+        $message->phone = htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->phone)));
+        $message->message = htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->message)));
+        $message->save();
+        Session::flash('success_msg_send','Thank You. We have got your valuable opinion');
+        return redirect()->back();
     }
 }

@@ -69,7 +69,7 @@
                                                 </ul>
                                           </li>
                                           <li class="dropdown">
-                                                <a href="contact">Contact Us</a>
+                                                <a href="{{Route('user.contact')}}">Contact Us</a>
                                           </li>
                                           <li class="dropdown pull-right searchbox">
                                                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">

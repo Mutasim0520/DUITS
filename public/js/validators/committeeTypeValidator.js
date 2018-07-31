@@ -13,25 +13,23 @@ $(document).ready(function () {
         return this.optional(element) || (element.files[0].size <= param)
     }, 'File size must be less than {0}');
 
-    $("#book_request_form").validate({
+    $("#committee_form").validate({
         rules: {
-            title:{
+            name:{
                 required:true,
-                maxlength: 200,
+                maxlength: 1,
+                remote:'/admin/check/committee',
             },
-            phone:{
+            description:{
                 required:true,
-                number:true,
-            }
+                maxlength:1000,
+            },
         },
         messages:{
-            title:{
-                required:"Please provide a name of your book.",
-                maxlength:"Please proveide a name less than 200 character",
+            name:{
+                remote:"This committee name already exist. Please try with another",
             },
-            phone:{
-                number:"Please provide a valid phone number"
-            }
+
         }
     });
 

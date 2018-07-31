@@ -220,10 +220,10 @@
                 </div>
                 <div class="modal-body">
                     <fieldset class="form-horizontal">
-                    <form method="post" action="{{Route('admin.store.committee')}}">
+                    <form id="committee_form" method="post" action="{{Route('admin.store.committee')}}">
                         {{csrf_field()}}
                         <div class="form-group"><label class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10"><input type="text" class="form-control" placeholder="" required name="name"></div>
+                            <div class="col-sm-10"><input id="name" type="text" class="form-control" placeholder="" required name="name"></div>
                         </div>
                         <div class="form-group"><label class="col-sm-2 control-label">Description</label>
                             <div class="col-sm-10">
@@ -281,6 +281,9 @@
 
 @endsection
 @section('script')
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+    <script type="javascript" src="/js/validators/committeeTypeValidator.js"></script>
     <script>
         $(document).ready(function(){
             $('.dataTables-example').DataTable({
@@ -307,10 +310,6 @@
 
             });
 
-        });
-        $('[data-toggle=confirmation]').confirmation({
-            rootSelector: '[data-toggle=confirmation]',
-            // other options
         });
 
     </script>

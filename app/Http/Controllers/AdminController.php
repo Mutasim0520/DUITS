@@ -17,6 +17,16 @@ use Auth;
 class AdminController extends Controller
 {
 
+    public function checkCommitteeExistence(Request $request){
+        if($request->ajax()){
+            $RequestedItem =htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->name)));
+            $RegisteredItem = Committee_type::where('name',$RequestedItem)->first();
+            $flag = "true";
+            if($RegisteredItem) $flag = "false";
+            echo $flag;
+        }
+    }
+
     public function storeCommittee(Request $request){
         $committee = new Committee_type();
         $committee->name = htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->name)));

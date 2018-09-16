@@ -5,72 +5,57 @@ DUITS
 @section('content')
     <section id="hero">
         <div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
-            <div class="item" style="background-image: url(assets/images/art/slider01.jpg);">
+            <div class="item" style="background-image: url(images/art/slider/slider02.jpg);">
                 <div class="container">
                     <div class="caption vertical-center text-center">
-                        <h1 class="fadeInDown-1 light-color">Made for Designers</h1>
-                        <p class="fadeInDown-2 medium-color">Create your online portfolio in minutes with the professionally and lovingly designed
-                            REEN website template. Customize your site with versatile and easy to use
-                            features.
-                        </p>
-                        <div class="fadeInDown-3">
-                            <a href="#" class="btn btn-large">Get started now</a>
+                        <h1 class="fadeInDown-1 light-color ">DUITS Freshers Reception 2018</h1>
+                        <p class="fadeInRight-2 dark-color"></p>
+                        <div class="fadeInRight-3">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(assets/images/art/slider02.jpg);">
+            <div class="item" style="background-image: url(images/art/slider/slider01.jpg);">
                 <div class="container">
                     <div class="caption vertical-center text-right">
-                        <h1 class="fadeInLeft-1 light-color">Fresh and
-                            <br>beautiful design</h1>
-                        <p class="fadeInLeft-2 light-color">REEN is designed to showcase your talent and put your work in the forefront.
-                            <br>Professionally use of typography and layout that fits your content.</p>
-                        <div class="fadeInLeft-3">
-                            <a href="#" class="btn btn-large">Get started now</a>
+                        <h1 class="fadeInLeft-1 dark-bg light-color">6th Anniversary
+                            <br>of DUITS 2018</h1>
+                            <p class="fadeInRight-2  dark-color"></p>
+                        <div class="fadeInRight-3">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(assets/images/art/slider03.jpg);">
+            <div class="item" style="background-image: url(images/art/slider/slider04.jpg);">
                 <div class="container">
                     <div class="caption vertical-center text-left">
                         <h1 class="fadeInRight-1 dark-bg light-color">
-                                                <span>Clean and
-                                                      <br>reusable code</span>
+                            <span>Satelite celebration</span>
                         </h1>
-                        <p class="fadeInRight-2 dark-color">The clean code allows you to easily copy code blocks from content
-                            <br>modules and past them in different places or layouts.</p>
+                        <p class="fadeInRight-2 dark-color"></p>
                         <div class="fadeInRight-3">
-                            <a href="#" class="btn btn-large">Get started now</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(assets/images/art/slider04.jpg);">
+            <div class="item" style="background-image: url(images/art/slider/slider03.jpg);">
                 <div class="container">
                     <div class="caption vertical-top text-right">
                         <h1 class="fadeIn-1 dark-bg light-color">
-                                                <span>Just focus on
-                                                      <br>your creativity</span>
+                        Digital Startup  Conference by DUITS  2017
                         </h1>
-                        <p class="fadeIn-2 light-color">Take a break from messing around with heavy coding and spend
-                            <br>your time brainstorming ideas for your next project.</p>
+                        <p class="fadeIn-2 light-color"></p>
                         <div class="fadeIn-3">
-                            <a href="#" class="btn btn-large">Get started now</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(assets/images/art/slider05.jpg);">
+            <div class="item" style="background-image: url(images/art/slider/slider05.jpg);">
                 <div class="container">
                     <div class="caption vertical-top text-center">
-                        <h1 class="fadeInDown-1 light-color">Showcase
-                            <br>your content</h1>
-                        <p class="fadeInDown-2 medium-color">With REEN you have the possibility to create websites for various
-                            <br>contents quickly and easily. Now it's up to you!</p>
+                        <h1 class="fadeInDown-1 light-color">WORLD CUP-18 LIVE SHOW BY DUITS AT TSC</h1>
+                        <p class="fadeInDown-2 medium-color"></p>
                         <div class="fadeInDown-3">
-                            <a href="#" class="btn btn-large">Get started now</a>
                         </div>
                     </div>
                 </div>

@@ -42,7 +42,7 @@ iframe{
 	-webkit-backface-visibility:hidden
 }
 body{
-	font-family:'Source Sans Pro',sans-serif;
+	font-family: 'times new roman',sans-serif;
 	background-color:#283645;
 	color:#73879c;
 	font-size:18px;
@@ -1850,10 +1850,10 @@ h1 .btn,h2 .btn,h3 .btn,h4 .btn,p .btn{
 	position:relative;
 	top:0;
 	margin:0 15px;
-	-webkit-transition:all 200ms ease-out;
-	-moz-transition:all 200ms ease-out;
-	-o-transition:all 200ms ease-out;
-	transition:all 200ms ease-out
+	-webkit-transition:all 800ms ease-out;
+	-moz-transition:all 800ms ease-out;
+	-o-transition:all 800ms ease-out;
+	transition:all 800ms ease-out
 }
 .tabs-circle-top .tab a{
 	display:table-cell;
@@ -5059,4 +5059,10 @@ a.changecolor{
 	text-align: justify;
     letter-spacing: .3px;
     line-height: 36px;
+}
+
+.hmcc {
+	background: #506a85 !important;
+    box-shadow: -0.5em 0 0 #506a85, 0.5em 0 0 #506a85;
+    -webkit-box-decoration-break: clone;
 }

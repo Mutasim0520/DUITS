@@ -71,6 +71,9 @@
                                           <li class="dropdown">
                                                 <a href="{{Route('user.contact')}}">Contact Us</a>
                                           </li>
+                                          <li class="dropdown">
+                                                <a href="/">DUITS 5th IT Fest</a>
+                                          </li>
                                           <li class="dropdown pull-right searchbox">
                                                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                                       <i class="icon-search"></i>

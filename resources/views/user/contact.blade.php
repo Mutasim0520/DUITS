@@ -37,9 +37,9 @@
                         <div class="col-sm-6 outer-top-md inner-left-sm border-left">
                             <h3>DUITS</h3>
                             <ul class="contacts">
-                                <li><i class="icon-location contact"></i> 84 Street, City, State 24813</li>
-                                <li><i class="icon-mobile contact"></i> +00 (123) 456 78 90</li>
-                                <li><a href="mailto:info@reen.com"><i class="icon-mail-1 contact"></i> info@reen.com</a></li>
+                                <li><i class="icon-location contact"></i> TSC, University of Dhaka</li>
+                                <li><i class="icon-mobile contact"></i> +8801923734867</li>
+                                <li><a href="mailto:info@reen.com"><i class="icon-mail-1 contact"></i> duits.official@gmail.com</a></li>
                             </ul>
                             <div class="social-network">
                                 <h3>Social</h3>
